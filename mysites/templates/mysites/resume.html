@@ -1,0 +1,59 @@
+{% extends 'mysites/components/main.html' %}
+
+{% block content %}
+<div class="index-header-container slide-in about-resume-container">
+
+<h1>My <b class="index-name">Resume .</b></h1>
+<p><b>Franklin James Jones</b></p>
+<p><i class="fa-solid fa-mobile-screen"></i>(774)-477-0462</p>
+<p><i class="fa-solid fa-envelope"></i>fjones89@protonmail.com</p>
+
+<p>Whitinsville, MA</p>
+<p style="width: 20%;">Experienced Full Stack Web Developer specializing in Django, Python, React, MongoDB, Express,
+Node.js, and Linux. Possesses a strong understanding of front-end and back-end web development and
+am capable of creating scalable and robust web applications. Have a passion for learning and staying
+up-to-date with the latest technologies and trends in the field.</p>
+
+<p><b>Skills:</b></p>
+
+<ul>
+	<li>Python</li>
+	<li>Django</li>
+	<li>Django REST framework</li>
+	<li>ORM</li>
+	<li>CRM</li>
+	<li>MVT architecture</li>
+	<li>Cloudinary</li>
+	<li>Javascript</li>
+	<li>jQuery</li>
+	<li>Mongodb</li>
+	<li>Express</li>
+	<li>React</li>
+	<li>Node.js</li>
+</ul>
+
+<p><b>Experience</b></p>
+
+<p><b>Freelance Web Developer SprayGunner | Clearwater, Fl</b></p>
+<p>Oct 2021 - Jan 2022</p>
+<ul>
+<li>Developed and maintained web applications using Wordpress, updated UI, and inegrated
+Wordpress Plugins.</li>
+</ul>
+
+<p><b>Projects</b></p>
+<p><b>LitHub</b></p>
+<p>An awesome web app where writer can share, host, edit their work.</p>
+<a href="https://thelithub.herokuapp.com" target="blank">LitHub</a>
+
+<p><b>Bistro Milliard</b></p>
+<p>Restaurant site for Bistro Milliard out of Hallowell, ME</p>
+<a href="https://bistromilliards.herokuapp.com" target="blank">Bistro Milliard</a>
+
+</div>
+
+<div class="resume-click-here">
+
+<a style="color: black" class="rainbow-flash" href="{% url 'mysites:terminal' %}" onclick="terminal()"><p style="color: black" id="rainbow-flash" class="rainbow-flash"></p></a>
+</div>
+{% endblock content %}

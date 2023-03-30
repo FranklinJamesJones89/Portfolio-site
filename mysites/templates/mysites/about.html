@@ -1,0 +1,16 @@
+{% extends 'mysites/components/main.html' %}
+
+{% block content %}
+
+<div class="index-header-container slide-in">
+
+<h1>About <b class="index-name">Me .</b></h1>
+<p class="about-paragraph"><b>&lt;&gt;</b>Professional, passionate, and dedicated, since beginning my journey as a freelance designer over 3 years ago, I've done remote work for agencies, consulted for startups, and collaborated with talented people to create digital products for both business and consumer use. I'm quietly confident, naturally curious, and perpetually working on improving my chops one design problem at a time.<b>&lt;/&gt;</b></p>
+</div>
+
+<div class="about-click-here">
+
+<a class="rainbow-flash" href="{% url 'mysites:terminal' %}" onclick="terminal()"><p id="rainbow-flash" class="rainbow-flash"></p></a>
+</div>
+
+{% endblock content %}

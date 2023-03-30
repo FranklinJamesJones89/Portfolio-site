@@ -1,0 +1,61 @@
+{% load static %}
+{% load bootstrap5 %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>I am Franklin James</title>
+
+<link rel="icon" type="image/ico" href="{% static 'mysites/img/coding.png' %}">
+
+<!-- Google Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+
+<!-- CSS -->
+<link rel="stylesheet" type="text/css" href="{% static 'mysites/css/styles.css' %}">
+
+</head>
+
+<body class="terminal-body">
+
+<img src="{% static 'mysites/img/kali-neofetch.png' %}" alt="kali-linux neofetch">
+<img src="{% static 'mysites/img/neofetch-gradient.png' %}" alt="kali-linux neofetch gradient">
+
+<form onsubmit="handleSubmit(event)">
+<h3>gilfoyle@piedpiper:~$ <b class="blink">|</b><input for="" id="inputField" type="text" autofocus autocomplete="off"></h3>
+<button style="display: none;" type="submit"></button>
+</form>
+
+
+<div class="terminal-contents-container terminal-hide-contents" id="terminal-stdout">
+
+<div id="terminal-stdout">
+<p>home.html</p>
+</div>
+
+<div id="terminal-stdout">
+<p class="terminal-directories">projects</p>
+</div>
+
+<div id="terminal-stdout">
+<p>resume.html</p>
+</div>
+
+<div id="terminal-stdout">
+<p>about.html</p>
+</div>
+
+<div id="terminal-stdout">
+<p>README.md</p>
+</div>
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="{% static 'mysites/js/index.js' %}"></script>
+</body>
+</html>

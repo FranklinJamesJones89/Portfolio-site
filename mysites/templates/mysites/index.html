@@ -1,0 +1,15 @@
+{% extends 'mysites/components/main.html' %}
+{% load static %}
+
+{% block content %}
+
+<div class="index-header-container slide-in">
+<h1>I'm <b class="index-name">Franklin .</b></h1>
+<p><b>&lt;&gt;</b>Let's make it happen<b>&lt;/&gt;</b></p>
+</div>
+
+<div class="index-click-here">
+<a class="rainbow-flash" href="{% url 'mysites:terminal' %}" onclick="terminal()"><p id="rainbow-flash" class="rainbow-flash"></p></a>
+</div>
+
+{% endblock content %}

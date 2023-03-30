@@ -1,0 +1,42 @@
+{% load static %}
+{% load bootstrap5 %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>I am Franklin James</title>
+
+<link rel="icon" type="image/ico" href="{% static 'mysites/img/coding.png' %}">
+
+<!-- Google Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+
+<!-- CSS -->
+<link rel="stylesheet" type="text/css" href="{% static 'mysites/css/styles.css' %}">
+
+</head>
+
+<body class="help-body" id="help-body">
+<div class="help-readme-container">
+<h1>Bash(1)</p>
+<p>bash gnu - Bourne-Again-Shell</p>
+<h1>Synopsis</h1>
+<p>bash [options] [command_string | file]</p>
+<h1>Description</h1>
+<p>Bash is an sh-compatible command language interpreter that executes commands read from the standard input or from a file. Bash also incorporates useful features from the Korn and C shells (ksh and csh).
+</p>
+<h1>Try</h1>
+<p>Usage: ['ls', 'cd &lt;directory&gt;', 'open &lt;directory&gt;', 'clear', 'cd', 'exit']</p>
+<h1>Copyright</h1>
+<p>Bash is Copyright (C) 1989-{{ year }} by the Free Software Foundation, Inc.</p>
+</div>
+
+<script src={% static 'mysites/js/index.js' %}></script>
+</body>
+
